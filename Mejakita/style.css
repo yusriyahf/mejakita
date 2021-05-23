@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  height: 2000px;
+}
+/* Navbar */
+nav {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #feb800 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  margin-right: 30px;
+}
+
+/* .nav-link:hover {
+  color: #eaeaea !important;
+  transition: 0.5s;
+} */
+
+.btn-left {
+  background-color: #feb800 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 40px !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn-right {
+  background-color: #ffffff !important;
+  color: #feb800 !important;
+  border: none !important;
+  border-radius: 40px !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn-right:hover {
+  background-color: #eaa900 !important;
+  color: #ffffff !important;
+  transition: 0.5s;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(233, 233, 233);
+}
+
+.form-control {
+  width: 631px;
+  height: 63px;
+  margin-top: -32px;
+  border: none;
+  box-shadow: 2px 2px 10px #b9b9b9;
+  border-radius: 40px;
+  font-family: "poppins";
+  font-size: 14px;
+  font-weight: 500;
+  color: #cfe2e6;
+}
+
+.header h3 {
+  margin-top: 20px;
+  font-family: "poppins";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Content */
+
+.filter {
+  margin-top: -15px;
+  margin-bottom: 42px;
+}
+.btn-card {
+  background-color: #f5f9fa !important;
+  color: #899b9e !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding-right: 33px !important;
+  padding-left: 33px !important;
+  font-family: "poppins";
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 2px;
+}
+
+.filter .btn-card:hover {
+  background-color: #5d6c6f !important;
+  color: white !important;
+  transition: 0.8s;
+}
+
+.card-content {
+  margin-top: 42px;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 25px;
+}
+
+.card svg {
+  margin-right: 15px;
+}
+
+.card-body {
+  background-color: #fdf1e3;
+  border: none !important;
+  /* height: 126px !important;
+  width: 271px !important; */
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #b9b9b9;
+}
+
+.card-body:hover {
+  transition: 0.8s;
+  transform: scale(1.1);
+}
+
+.card-content .card-title {
+  font-family: "Oswald";
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+.card-content .card-subtitle {
+  margin-top: 14px;
+  font-family: "poppins";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-content .card-text {
+  margin-top: 1px;
+  margin-left: 30px;
+  font-family: "poppins";
+  font-size: 13px;
+  font-weight: 400;
+  color: #797373;
+}
