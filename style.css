@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
 
 body {
   height: 2000px;
@@ -114,6 +114,36 @@ nav {
   margin-top: 42px;
 }
 
+.ilustration img {
+  margin-left: 380px;
+  height: 268px;
+  width: 320px;
+  margin-top: 66px;
+}
+
+.ilustration h5 {
+  font-family: "poppins";
+  text-align: center;
+}
+
+.ilustration .btn {
+  background-color: #eaa900;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  outline: none;
+}
+
+.ilustration .btn:hover {
+  background-color: #ffb700;
+}
+
 .card {
   border: none !important;
   margin-bottom: 25px;
@@ -160,7 +190,6 @@ nav {
   color: #797373;
 }
 
-
 /* Modul Box */
 
 /* The Modal (background) */
@@ -175,21 +204,20 @@ nav {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: #FDF1E3; /* Fallback color */
-  background-color: rgba(54,54,54,0.6); /* Black w/ opacity */
-
+  background-color: #fdf1e3; /* Fallback color */
+  background-color: rgba(54, 54, 54, 0.6); /* Black w/ opacity */
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #FDF1E3;
+  background-color: #fdf1e3;
   margin: auto;
   padding: 0;
   border: none;
   width: 511px;
   height: 365px;
-  box-shadow: 4px -4px 30px 0 rgba(68,68,68,0.2);
+  box-shadow: 4px -4px 30px 0 rgba(68, 68, 68, 0.2);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -199,19 +227,31 @@ nav {
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-  from {top: 0; opacity:0} 
-  to {top:0; opacity:1}
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 @keyframes animatetop {
-  from {top:0; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 /* The Close Button */
 .close {
   margin-left: 450px;
-  color: #ECC89F;
+  color: #ecc89f;
   float: right;
   font-size: 24px;
   font-weight: bold;
@@ -226,14 +266,13 @@ nav {
 
 .modal-header {
   padding: 2px 16px;
-  background-color: #FDF1E3;
+  background-color: #fdf1e3;
   border: none;
   color: white;
 }
 
 .modal-body {
   margin: 20px 54px 0px 54px;
-  
 }
 
 .modal-body span {
@@ -241,29 +280,28 @@ nav {
   margin-top: -20px;
 }
 .modal-body h1 {
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-weight: 500;
   font-size: 20px;
 }
 
 .modal-body h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 16px;
   color: black;
-
 }
 
 .modal-body p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 400;
   font-size: 14px;
   color: #797373;
 }
 
 .btn-modal-left {
-  background-color: #FDF1E3 !important;
-  color: #FF4545 !important;
+  background-color: #fdf1e3 !important;
+  color: #ff4545 !important;
   border: none !important;
   border-radius: 40px !important;
   padding-right: 20px !important;
@@ -290,19 +328,19 @@ nav {
 }
 
 .btn-modal-right:hover {
-  background-color: #FEB800 !important;
+  background-color: #feb800 !important;
   color: white !important;
   transition: 0.5s;
 }
 
 .btn-modal-left:hover {
-  background-color: #FF4545 !important;
+  background-color: #ff4545 !important;
   color: white !important;
   transition: 0.5s;
 }
 .modal-footer {
   padding: 2px 16px;
   border: none;
-  background-color: #FDF1E3;
+  background-color: #fdf1e3;
   color: white;
 }
