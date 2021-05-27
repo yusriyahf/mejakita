@@ -91,6 +91,7 @@ nav {
   margin-top: -15px;
   margin-bottom: 42px;
 }
+
 .btn-card {
   background-color: #f5f9fa !important;
   color: #899b9e !important;
@@ -112,36 +113,6 @@ nav {
 
 .card-content {
   margin-top: 42px;
-}
-
-.ilustration img {
-  margin-left: 380px;
-  height: 268px;
-  width: 320px;
-  margin-top: 66px;
-}
-
-.ilustration h5 {
-  font-family: "poppins";
-  text-align: center;
-}
-
-.ilustration .btn {
-  background-color: #eaa900;
-  border: none;
-  border-radius: 50%;
-  color: white;
-  cursor: pointer;
-  position: fixed;
-  right: 50px;
-  bottom: 20px;
-  width: 50px;
-  height: 50px;
-  outline: none;
-}
-
-.ilustration .btn:hover {
-  background-color: #ffb700;
 }
 
 .card {
