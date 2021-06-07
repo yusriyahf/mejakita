@@ -35,9 +35,10 @@
         selectable: true,
         selectHelper: true,
         select: function(start, end, allDay) {
-          alert(start);
+
           var start = $.fullCalendar.formatDate(start, "Y-MM-DD HH:mm:ss");
           var end = $.fullCalendar.formatDate(end, "Y-MM-DD HH:mm:ss");
+
 
           // lempar data
           $.ajax({
@@ -49,8 +50,9 @@
             },
             success: function() {
               // set value
-              document.getElementsByClassName("startdate").value = start;
-              document.getElementsByClassName("enddate").value = end;
+              document.getElementById('startdate').value = start;
+              document.getElementById('enddate').value = end
+
             }
           });
         }
@@ -157,9 +159,9 @@
           </div>
           <input type="text" name="keterangan" placeholder="Masukkan keterangan kegiatan">
 
-          <input type="hidden" class="startdate" name="startdate">
+          <input type="hidden" id="startdate" name="startdate">
 
-          <input type="hidden" class="enddate" name="enddate">
+          <input type="hidden" id="enddate" name="enddate">
 
           <div id="calendar"></div>
 
