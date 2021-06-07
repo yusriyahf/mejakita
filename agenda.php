@@ -6,8 +6,6 @@ $show = mysqli_query($koneksi, "SELECT * FROM todo ORDER BY id");
 
 
 if (isset($_POST['addevent'])) {
-    var_dump($_POST);
-    exit;
     $title = $_POST['eventname'];
     $keterangan = $_POST['keterangan'];
     $start_event = $_POST['startdate'];
